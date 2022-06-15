@@ -1,0 +1,9 @@
+html {
+  @apply bg-bg0L;
+  @apply text-text0L;
+}
+
+html.dark {
+  @apply bg-bg0D;
+  @apply text-text0D;
+}
