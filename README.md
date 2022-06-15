@@ -1,6 +1,12 @@
-<p align='center'>
-  <b>Vide</b>
-</p>
+<div align="center">
+   <a href="https://github.com/nico-mayer/vide">
+    <img src="src/assets/logo.png" alt="Logo" width="200">
+  </a>
+  <h2><b>Vide</b></h2>
+</div>
+
+  
+
 
 <p align='center'>
 Vue3 + Vite Starter Template, super leightweight Targeted for beginners
