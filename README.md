@@ -21,6 +21,19 @@ To provide a clean entry point for newcomers and advanced Vue + Vite users.
 
 <br>
 
+## Get Started
+
+```bash
+npx degit nico-mayer/vide my-vide-app
+
+cd my-vide-app
+
+yarn # If you don't have yarn installed, run: npm install
+
+yarn dev # or npm run dev to start the development server
+```
+
+<br>
 
 ## Features
 
@@ -75,28 +88,8 @@ To provide a clean entry point for newcomers and advanced Vue + Vite users.
 
 > Vide requires Node >=14
 
-### GitHub Template
+### <del>GitHub Template</del> (cooming soon)
 
-
-
-### Clone to local
-
-If you prefer to do it manually with the cleaner git history
-
-```bash
-npx degit nico-mayer/vide my-vide-app
-cd my-vide-app
-yarn i # If you don't have yarn installed, run: npm install
-```
-
-
-### Development
-
-Just run and visit http://localhost:3000
-
-```bash
-yarn dev
-```
 
 ### Build
 
