@@ -1,3 +1,5 @@
-<script setup></script>
+<script setup lang="ts"></script>
 
-<template>Hallo</template>
+<template>
+  <div>INDEX</div>
+</template>
