@@ -1,16 +1,113 @@
-# Vue 3 + TypeScript + Vite
+<p align='center'>
+  <b>Vide</b>
+</p>
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<p align='center'>
+Vue3 + Vite Starter Template, super leightweight Targeted for beginners
+</p> 
 
-## Recommended IDE Setup
+<br>
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+<p align='center'>
+The Goal was to create a super lightweight Vite Starter template with as few dependencies as possible, but at the same time provide a good amount of utility.
+To provide a clean entry point for newcomers and advanced Vue + Vite users.
+</p>
 
-## Type Support For `.vue` Imports in TS
+<br>
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+<p align='center'>
+<a href="https://enchanting-semifreddo-05116e.netlify.app/">Live Demo</a>
+</p>
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+<br>
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+
+## Features
+
+- ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite)
+
+- 🌙 Easy Custumizable Dark Mode
+
+- 🗂 <del>[File based routing]</del> (cooming soon)
+
+- 📦 [Components auto importing](./src/components)
+
+- 🌬️ [WindiCSS](https://github.com/windicss/windicss)
+
+- 😮 [Iconify Components](https://github.com/iconify) 
+
+- 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
+
+- 💪 TypeScript
+
+<br>
+
+
+## Pre-packed
+
+### UI Frameworks
+
+- [WindiCSS](https://github.com/windicss/windicss) - Next generation utility-first CSS framework.
+
+### Icons
+
+- [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
+
+### Plugins
+
+- [Vue Router](https://github.com/vuejs/vue-router)
+  - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
+  - [`vite-plugin-vue-layouts`](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) - layouts for pages
+
+### Coding Style
+
+- Use Composition API with [`<script setup>` SFC syntax](https://github.com/vuejs/rfcs/pull/227)
+
+### Dev tools
+
+- [TypeScript](https://www.typescriptlang.org/)
+
+- [VS Code Extensions](./.vscode/extensions.json)
+  - [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite) - Fire up Vite server automatically
+  - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
+  - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - Icon inline display and autocomplete
+
+
+> Vide requires Node >=14
+
+### GitHub Template
+
+
+
+### Clone to local
+
+If you prefer to do it manually with the cleaner git history
+
+```bash
+npx degit nico-mayer/vide my-vide-app
+cd my-vide-app
+yarn i # If you don't have yarn installed, run: npm install
+```
+
+
+### Development
+
+Just run and visit http://localhost:3000
+
+```bash
+yarn dev
+```
+
+### Build
+
+To build the App, run
+
+```bash
+yarn build
+```
+
+And you will see the generated file in `dist` that ready to be served.
+
+<br>
+
+<p align="center">This template is inspired by <a href="https://github.com/antfu/vitesse">vitesse</a> and <a href="https://github.com/alvarosabu/vitesome">vitesome</a></p>
