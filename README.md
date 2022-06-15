@@ -4,13 +4,13 @@
 
 <p align='center'>
 Vue3 + Vite Starter Template, super leightweight Targeted for beginners
-</p> 
+</p>
 
 <br>
 
 <p align='center'>
 The Goal was to create a super lightweight Vite Starter template with as few dependencies as possible, but at the same time provide a good amount of utility.
-To provide a clean entry point for newcomers and advanced Vue + Vite users.
+To deliver a clean entry point for newcomers and advanced Vue + Vite users.
 </p>
 
 <br>
@@ -47,14 +47,13 @@ yarn dev # or npm run dev to start the development server
 
 - 🌬️ [WindiCSS](https://github.com/windicss/windicss)
 
-- 😮 [Iconify Components](https://github.com/iconify) 
+- 😮 [Iconify Components](https://github.com/iconify)
 
 - 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 
 - 💪 TypeScript
 
 <br>
-
 
 ## Pre-packed
 
@@ -85,11 +84,9 @@ yarn dev # or npm run dev to start the development server
   - [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) - Vue 3 `<script setup>` IDE support
   - [Iconify IntelliSense](https://marketplace.visualstudio.com/items?itemName=antfu.iconify) - Icon inline display and autocomplete
 
-
 > Vide requires Node >=14
 
 ### <del>GitHub Template</del> (cooming soon)
-
 
 ### Build
 

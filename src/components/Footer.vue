@@ -14,6 +14,8 @@ import { Icon } from "@iconify/vue"
         height="24"
       />
     </button>
-    <a href=""><Icon icon="carbon:logo-github" width="24" height="24" /></a>
+    <a href="https://github.com/Nico-Mayer/vide" target="_blank"
+      ><Icon icon="carbon:logo-github" width="24" height="24"
+    /></a>
   </div>
 </template>
