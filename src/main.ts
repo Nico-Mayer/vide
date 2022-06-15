@@ -3,10 +3,10 @@ import App from "./App.vue"
 import "./app.css"
 import "virtual:windi.css"
 
-/* import routes from "virtual:generated-pages"
-import { createRouter } from "vue-router"
+import generatedRoutes from "virtual:generated-pages"
+import { createRouter, createWebHistory } from "vue-router"
 const router = createRouter({
-  routes
-}) */
-
-createApp(App).mount("#app")
+  history: createWebHistory(),
+  routes: generatedRoutes,
+})
+createApp(App).use(router).mount("#app")

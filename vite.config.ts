@@ -1,10 +1,9 @@
 import { defineConfig } from "vite"
-
+import Pages from "vite-plugin-pages"
 import vue from "@vitejs/plugin-vue"
 import WindiCSS from "vite-plugin-windicss"
 import Components from "unplugin-vue-components/vite"
 import AutoImport from "unplugin-auto-import/vite"
-import Pages from "vite-plugin-pages"
 
 // https://vitejs.dev/config/
 export default defineConfig({

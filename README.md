@@ -5,9 +5,6 @@
   <h2><b>Vide</b></h2>
 </div>
 
-  
-
-
 <p align='center'>
 Vue3 + Vite Starter Template, super leightweight Targeted for beginners
 </p>
@@ -47,9 +44,9 @@ yarn dev # or npm run dev to start the development server
 
 - 🌙 Easy Custumizable Dark Mode
 
-- 🗂 <del>[File based routing]</del> (cooming soon)
+- 🗂 [File based routing]
 
-- 📦 [Components auto importing](./src/components)
+- 📦 Components auto importing
 
 - 🌬️ [WindiCSS](https://github.com/windicss/windicss)
 

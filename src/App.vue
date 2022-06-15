@@ -7,7 +7,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <HelloWorld />
+  <RouterView />
 </template>
 
 <style></style>
