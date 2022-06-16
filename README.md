@@ -19,7 +19,7 @@ To deliver a clean entry point for newcomers and advanced Vue + Vite users.
 <br>
 
 <p align='center'>
-<a href="https://enchanting-semifreddo-05116e.netlify.app/" target="_blank">Live Demo</a>
+<a href="https://vide-iota.vercel.app/" target="_blank">Live Demo</a>
 </p>
 
 <br>
