@@ -62,7 +62,7 @@ yarn dev # or npm run dev to start the development server
 
 ### UI Frameworks
 
-- [WindiCSS](https://github.com/windicss/windicss) - Next generation utility-first CSS framework.
+- [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
 
 ### Icons
 
