@@ -1,7 +1,7 @@
 import { defineConfig } from "vite"
 import Pages from "vite-plugin-pages"
 import vue from "@vitejs/plugin-vue"
-import WindiCSS from "vite-plugin-windicss"
+import Unocss from "unocss/vite"
 import Components from "unplugin-vue-components/vite"
 import AutoImport from "unplugin-auto-import/vite"
 
@@ -9,8 +9,8 @@ import AutoImport from "unplugin-auto-import/vite"
 export default defineConfig({
   plugins: [
     vue(),
-    // https://github.com/windicss/windicss
-    WindiCSS(),
+    // https://github.com/unocss/unocss
+    Unocss(),
     // https://github.com/antfu/unplugin-vue-components
     Components(),
     // https://github.com/antfu/unplugin-auto-import

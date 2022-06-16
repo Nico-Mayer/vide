@@ -1,11 +1,4 @@
-const userTheme = localStorage.getItem("theme")
-const systemTheme = window.matchMedia("(prefers-color-scheme: dark)").matches
-
-function themeCheck() {
-  if (userTheme === "dark" || (!userTheme && systemTheme)) {
-    document.documentElement.classList.add("dark")
-  }
-}
+// This Function Toggels the dark mode and can be accessed in every component
 function toggleDarkMode() {
   if (document.documentElement.classList.contains("dark")) {
     document.documentElement.classList.remove("dark")
@@ -16,4 +9,4 @@ function toggleDarkMode() {
   }
 }
 
-export { themeCheck, toggleDarkMode }
+export { toggleDarkMode }

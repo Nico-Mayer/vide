@@ -2,9 +2,22 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./src/assets/logo.svg" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vide App</title>
+    <script>
+      // This function checks the preferred color theme on the initial page load
+      ;(function themeCheck() {
+        const userTheme = localStorage.getItem("theme")
+        const systemTheme = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches
+        console.log("theme cecked")
+        if (userTheme === "dark" || (!userTheme && systemTheme)) {
+          document.documentElement.classList.add("dark")
+        }
+      })()
+    </script>
   </head>
   <body>
     <div id="app"></div>

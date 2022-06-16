@@ -1,16 +1,9 @@
-<script setup lang="ts">
-import { Icon } from "@iconify/vue"
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <div class="flex justify-center items-center w-screen py-20 px-4">
-    <div class="flex flex-col items-center max-w-2xl">
-      <Icon
-        icon="bi:card-text"
-        width="48"
-        height="48"
-        class="mb-4 text-accent0"
-      />
+  <div flex="~" w="screen" justify="center" p="y20 x4">
+    <div flex="~ col" items="center" class="max-w-2xl">
+      <div class="i-bi-card-text" text="40px accent" m="b4"></div>
       <h1 class="mb-4" font="semibold" text="2xl">About</h1>
       <p class="mb-2">
         <a

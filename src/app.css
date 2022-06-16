@@ -1,9 +1,12 @@
+// Apply global css rules
 html {
-  @apply bg-bg0L;
-  @apply text-text0L;
+  @apply bg-lightbg;
+  @apply text-textl;
 }
-
+body {
+  margin: 0;
+}
 html.dark {
-  @apply bg-bg0D;
-  @apply text-text0D;
+  @apply bg-darkbg;
+  @apply text-textd;
 }
