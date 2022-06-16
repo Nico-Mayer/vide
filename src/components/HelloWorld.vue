@@ -1,9 +1,9 @@
 <script setup lang="ts">
 const router = useRouter()
-const name = ref("")
+const name = ref()
 
 function go() {
-  if (name) {
+  if (name.value) {
     router.push(`/name/${name.value}`)
   }
 }
