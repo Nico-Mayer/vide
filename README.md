@@ -1,6 +1,6 @@
 <div align="center">
    <a href="https://github.com/nico-mayer/vide">
-    <img src="src/assets/logo.png" alt="Logo" width="200">
+    <img src="src/assets/logo.svg" alt="Logo" width="200">
   </a>
   <h2><b>Vide</b></h2>
 </div>
