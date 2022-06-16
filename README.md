@@ -48,9 +48,9 @@ yarn dev # or npm run dev to start the development server
 
 - 📦 Components auto importing
 
-- 🌬️ [WindiCSS](https://github.com/windicss/windicss)
+- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
 
-- 😮 [Iconify Components](https://github.com/iconify)
+- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 - 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 
@@ -102,7 +102,7 @@ And you will see the generated files in `dist` that are ready to be served.
 ## Roadmap
 
 - [x] Implement File based routing
-- [ ] Add unoCSS with pure css icons
+- [x] Add unoCSS with pure css icons
 - [ ] Write guide for custumizing dark mode
 - [ ] Improve about  page content
 
