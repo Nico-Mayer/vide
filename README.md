@@ -104,6 +104,7 @@ And you will see the generated files in `dist` that are ready to be served.
 - [x] Implement File based routing
 - [ ] Add unoCSS with pure css icons
 - [ ] Write guide for custumizing dark mode
+- [ ] Improve about  page content
 
 <br>
 
