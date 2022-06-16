@@ -3,7 +3,7 @@ import { Icon } from "@iconify/vue"
 </script>
 
 <template>
-  <main class="flex justify-center items-center w-screen py-20 px-4">
+  <div class="flex justify-center items-center w-screen py-20 px-4">
     <div class="flex flex-col items-center max-w-2xl">
       <Icon
         icon="bi:card-text"
@@ -35,7 +35,7 @@ import { Icon } from "@iconify/vue"
       </p>
       <Footer />
     </div>
-  </main>
+  </div>
 </template>
 
 <style scoped>

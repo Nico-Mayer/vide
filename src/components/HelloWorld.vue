@@ -10,7 +10,7 @@ function go() {
 </script>
 
 <template>
-  <main class="flex flex-col justify-center items-center w-screen py-20 px-4">
+  <div class="flex flex-col justify-center items-center w-screen py-20 px-4">
     <section class="flex flex-col items-center">
       <img class="w-40" src="../assets/logo.svg" alt="" />
       <h1 font="semibold" text="2xl">Vide</h1>
@@ -39,5 +39,5 @@ function go() {
       </button>
     </section>
     <Footer />
-  </main>
+  </div>
 </template>
