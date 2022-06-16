@@ -72,7 +72,6 @@ yarn dev # or npm run dev to start the development server
 
 - [Vue Router](https://github.com/vuejs/vue-router)
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
-  - [`vite-plugin-vue-layouts`](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) - layouts for pages
 
 ### Coding Style
 
@@ -89,8 +88,6 @@ yarn dev # or npm run dev to start the development server
 
 > Vide requires Node >=14
 
-### <del>GitHub Template</del> (cooming soon)
-
 ### Build
 
 To build the App, run
@@ -99,7 +96,7 @@ To build the App, run
 yarn build
 ```
 
-And you will see the generated file in `dist` that ready to be served.
+And you will see the generated files in `dist` that are ready to be served.
 
 <br>
 
