@@ -30,7 +30,7 @@ function go() {
         placeholder="What`s your name?"
       />
       <button
-        bg="accent0/50 hover:accent0"
+        bg="accent0/90 hover:accent0"
         class="rounded px-4 py-1 transition-all duration-100"
         text="text0D/80 hover:text0D"
         @click="go"

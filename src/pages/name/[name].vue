@@ -14,7 +14,7 @@ const router = useRouter()
       <p font="italic" text="xs" opacity="50">[Demo of dynamic route]</p>
       <button
         m="t-10"
-        bg="accent0/50 hover:accent0"
+        bg="accent0/90 hover:accent0"
         class="rounded px-4 py-1 transition-all duration-100"
         text="text0D/80 hover:text0D"
         @click="router.back()"

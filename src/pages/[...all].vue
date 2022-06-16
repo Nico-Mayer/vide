@@ -9,7 +9,12 @@ const router = useRouter()
   >
     <Icon icon="uiw:stop-o" width="48" height="48" />
     <p>Page not Found</p>
-    <button bg="accent0" p="y-1 p-4" rounded="~" @click="router.back()">
+    <button
+      bg="accent0/90 hover:accent0"
+      class="rounded px-4 py-1 transition-all duration-100"
+      text="text0D/80 hover:text0D"
+      @click="router.back()"
+    >
       Back
     </button>
   </div>
