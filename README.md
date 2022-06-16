@@ -99,5 +99,11 @@ yarn build
 And you will see the generated files in `dist` that are ready to be served.
 
 <br>
+## Roadmap
+
+- [x] Implement File based routing
+- [ ] Add unoCSS with pure css icons
+
+<br>
 
 <p align="center">This template is inspired by <a href="https://github.com/antfu/vitesse">vitesse</a> and <a href="https://github.com/alvarosabu/vitesome">vitesome</a></p>
