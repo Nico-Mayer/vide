@@ -30,7 +30,7 @@ export default defineConfig({
   shortcuts: [
     [
       "btn",
-      "bg-accent/90 hover:bg-accent rounded px-4 py-1 transition-all duration-200 text-textd/80 hover:textd",
+      "bg-accent/90 hover:bg-accent rounded px-4 py-1 transition-all duration-200 text-textd/80 hover:text-textd",
     ],
     [
       "icon-btn",
