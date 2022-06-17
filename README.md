@@ -24,6 +24,12 @@ To deliver a clean entry point for newcomers and advanced Vue + Vite users.
 
 <br>
 
+### You want SSR?
+
+Check out [videNuxt](https://github.com/Nico-Mayer/videNuxt) - Nuxt 3 Version of Vide
+
+
+
 ## Get Started
 
 ```bash
