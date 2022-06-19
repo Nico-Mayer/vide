@@ -6,7 +6,7 @@
 </div>
 
 <p align='center'>
-Vue3 + Vite Starter Template, super leightweight Targeted for beginners
+Vue3 + Vite Starter Template, super lightweight Targeted for beginners
 </p>
 
 <br>
@@ -28,8 +28,6 @@ To deliver a clean entry point for newcomers and advanced Vue + Vite users.
 
 Check out [videNuxt](https://github.com/Nico-Mayer/videNuxt) - Nuxt 3 Version of Vide
 
-
-
 ## Get Started
 
 ```bash
@@ -48,15 +46,19 @@ yarn dev # or npm run dev to start the development server
 
 - ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite)
 
-- 🌙 Easy Custumizable Dark Mode
+- 🌙 Easy Customizable Dark Mode
 
-- 🗂 [File based routing]
+- 🗂 File based routing
 
 - 📦 Components auto importing
 
 - 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
 
 - 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+
+- 🗒 [Markdown Support](https://github.com/antfu/vite-plugin-md)
+
+- 📑 [Layout system](https://github.com/antfu/vitesse/blob/main/src/layouts/README.md)
 
 - 🔥 Use the [new `<script setup>` syntax](https://github.com/vuejs/rfcs/pull/227)
 
@@ -110,8 +112,8 @@ And you will see the generated files in `dist` that are ready to be served.
 
 - [x] Implement File based routing
 - [x] Add unoCSS with pure css icons
+- [ ] Improve about page content
 - [ ] Write guide for custumizing dark mode
-- [ ] Improve about  page content
 
 <br>
 

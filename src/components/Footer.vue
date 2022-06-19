@@ -11,7 +11,7 @@ function go(url: string) {
     <button class="icon-btn" @click="go('/')">
       <div class="i-clarity-home-line" />
     </button>
-    <button class="icon-btn" @click="toggleDarkMode">
+    <button class="icon-btn" @click="toggleDark()">
       <div class="i-carbon-moon dark:i-carbon-sun" />
     </button>
     <a

@@ -10,6 +10,7 @@ import {
   transformerVariantGroup,
   presetWebFonts,
   presetIcons,
+  presetTypography,
 } from "unocss"
 
 export default defineConfig({
@@ -51,6 +52,8 @@ export default defineConfig({
     presetUno(),
     presetIcons({ scale: 1.2 }),
     presetAttributify(),
+    presetTypography(),
   ],
   transformers: [transformerDirectives(), transformerVariantGroup()],
+  safelist: "prose prose-sm m-auto text-left".split(" "),
 })
