@@ -26,6 +26,8 @@ To deliver a clean entry point for newcomers and advanced Vue + Vite users.
 
 ### You want SSR?
 
+You like Svelte look at [vide-kit](https://github.com/Nico-Mayer/vide-kit)
+
 Check out [videNuxt](https://github.com/Nico-Mayer/videNuxt) - Nuxt 3 Version of Vide
 
 ## Get Started
